@@ -1,7 +1,11 @@
 # jp_arrow.
 Conver date/datetime from/to Japanese date/datetime.
 
-This module highly depend on "arrow".
+This module highly depend on "[arrow](https://pypi.org/project/arrow/)".
+
+ - ISO date/datetime from/to Japanse date/datetime.
+ - 100% compatible for "arrow" except japanses date.
+ - builtins format for japanese date.
 
 ## Install
 
@@ -18,7 +22,7 @@ Out[2]: '令和04年0715日'
 In [3]:
 ```
 
-```
+```python
 In [2]: dt = jp_arrow.get('平成36年01月13日')
 
 In [3]: dt

@@ -14,18 +14,21 @@ def get_version(rel_path):
 
 setup(
     name="jp_arrow",
-    version=get_version('jp_arrow/versions.py'),
-    license="MIT",
-    install_requirements=[""],
+    version=get_version('jp_arrow/version.py'),
+    license="Apache 2.0",
+    install_requires=[
+        "arrrow",
+    ],
     author="iisaka51",
     author_email="iisaka51@gmail.com",
     url="https://github.com/iisaka51/jp_arrow",
-    description="Conver date from/to Japanese date",
+    description="Convert date/datetime from/to Japanese date/datetime",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
+    keywords="arrow date time datetime timestamp timezone humanize",
     classifiers=[
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
