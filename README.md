@@ -1,4 +1,4 @@
-# jp_calendar.
+# jp_arrow.
 Conver date/datetime from/to Japanese date/datetime.
 
 This module highly depend on "arrow".
